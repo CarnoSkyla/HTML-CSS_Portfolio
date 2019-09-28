@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+font-family: 'Poppins', sans-serif;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+.d-flex-2, .d-flex-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1024px;
+  margin: auto;
+
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.top-menu li, .main-menu ul li {
+  margin-right: 30px;
+}
+.top-menu li a, .contact-details *{
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-container {
+  background-color: #ca2123;
+}
+.header-container .nav-container {
+  min-height: 30px;
+}
+.align-self-start {
+  align-self: flex-start;
+}
+.third-menu-container {
+  border-top: 1px solid;
+ border-bottom: 1px solid;
+}
+.third-menu {
+  position: relative;
+  justify-content: flex-end;
+  min-height: 40px;
+  align-items: center;
+}
+.third-menu .all-categories {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-menu {
+  height: 40px;
+}
