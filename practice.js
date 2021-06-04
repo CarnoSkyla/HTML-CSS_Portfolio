@@ -16,7 +16,7 @@ const isUserNameCorrect = false;
             })
             isUserNameCorrect = false;
             errors.forEach(error => {
-                document.getElementById('prac').innerHTML = `${error}, try again`
+                document.getElementById('prac').innerHTML = `${error.error}, try again`
             });
         } else {
             users.push({
@@ -31,7 +31,7 @@ const isUserNameCorrect = false;
             error: `${name} ${surname} is not a valid name`
         })
         errors.forEach(error => {
-            document.getElementById('prac').innerHTML = `${error}, try again`
+            document.getElementById('prac').innerHTML = `${error.error}, try again`
         });
     }
     return users;
